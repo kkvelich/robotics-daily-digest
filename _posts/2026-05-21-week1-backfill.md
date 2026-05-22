@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Week 1 Backfill — Robotics Market Sensing"
 date: 2026-05-21
 ---

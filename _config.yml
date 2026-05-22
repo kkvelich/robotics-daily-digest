@@ -1,8 +1,16 @@
 title: Robotics Market Sensing
-description: Daily edge-AI-for-robotics digest. Updated ~7 AM Phoenix.
-theme: jekyll-theme-cayman
-show_downloads: false
+description: Daily intelligence brief on edge AI for robotics.
+theme: minima
+show_excerpts: true
+permalink: /:year/:month/:day/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-permalink: /:year/:month/:day/
+
+minima:
+  skin: classic
+  date_format: "%B %-d, %Y"
+  social_links: []
+
+# Hide default Minima footer cruft
+header_pages: []
