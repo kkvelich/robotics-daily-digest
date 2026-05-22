@@ -1,7 +1,7 @@
 title: Robotics Market Sensing
 description: Daily intelligence brief on edge AI for robotics.
 theme: minima
-show_excerpts: true
+show_excerpts: false
 permalink: /:year/:month/:day/
 plugins:
   - jekyll-feed
