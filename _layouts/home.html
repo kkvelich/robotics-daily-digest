@@ -10,9 +10,10 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Recent briefs" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- assign recent_posts = site.posts | slice: 0, 14 -%}
+      {%- for post in recent_posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -29,5 +30,11 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
+
+    {%- if site.posts.size > 14 -%}
+      <p style="margin-top:2em; color:#666;">
+        Showing the most recent 14 briefs. <a href="{{ '/tags/' | relative_url }}">Browse the full archive by topic →</a>
+      </p>
+    {%- endif -%}
   {%- endif -%}
 </div>

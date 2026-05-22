@@ -2,7 +2,7 @@
 layout: post
 title: "Week 1 Backfill — Robotics Market Sensing"
 date: 2026-05-21
-tags: [funding, products, humanoids, silicon, foundation-models, deployments, china, policy, conferences]
+tags: [china, silicon, deployments]
 ---
 
 # Robotics Market Sensing — Week of 2026-05-21
