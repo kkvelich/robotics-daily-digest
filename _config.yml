@@ -12,5 +12,5 @@ minima:
   date_format: "%B %-d, %Y"
   social_links: []
 
-# Hide default Minima footer cruft
-header_pages: []
+header_pages:
+  - tags.md
