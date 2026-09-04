@@ -19,8 +19,11 @@ tags: [funding, products, humanoids, foundation-models, silicon, china, conferen
 | Company | Stage | Amount | Lead | What they build | Compute | Source |
 |---|---|---|---|---|---|---|
 | Hugging Face (acquired by NVIDIA) | Acquisition | $12.9B | NVIDIA | Open AI model hub; 3M models, 1M apps, 18M developers; robotics: LeRobot framework, datasets | NVIDIA silicon (Jetson, DGX) | [TechCrunch](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/) · [CNBC](https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html) |
+| Cornerstone Robotics | Strategic investment | $700M | Medtronic | Sentire minimally-invasive surgical robot; dual-console architecture; CE Mark + China + Singapore approval | Not disclosed | [MobiHealthNews](https://www.mobihealthnews.com/news/medtronic-invests-700m-cornerstone-robotics) · [Cornerstone](https://en.csrbtx.com/press-release/strategic-partnership) |
+| eCential Robotics (acq. by Enovis) | Acquisition | ~$180M (€155M) + €35M milestones | Enovis (ENOV) | Modular robotic-assisted surgical platforms for orthopedics; integrates into Enovis ASTRA ecosystem | Not disclosed | [OrthoSpineNews](https://orthospinenews.com/2026/09/01/ecential-robotics-announces-binding-offer-from-enovis/) |
+| Locus Robotics | Series G | $41.6M | Tiger Global, Goldman Sachs AM | AMRs for warehouse fulfillment; multi-robot orchestration software; Europe & Asia expansion | Not disclosed | [FinSMEs](https://www.finsmes.com/2026/09/locus-robotics-raises-41-6m-in-series-g-funding.html) |
 
-> Deal includes $11.9B to shareholders + $1B equity to retain employees. Jensen Huang committed to keeping Hugging Face an open platform; open-source model access, frameworks, and inference provider choice stay intact — for now.
+> NVIDIA deal: $11.9B to shareholders + $1B equity for employee retention; Huang committed to keeping the platform open. Medical robotics saw ~$880M in strategic investment in 24h — Medtronic/Cornerstone and Enovis/eCential both announced Sep 1 and widely covered Sep 3. Agility Robotics ($2.5B SPAC) and FORT Robotics ($556.6M SPAC) remain in-flight for Q4 close.
 
 ---
 
