@@ -2,7 +2,7 @@
 layout: post
 title: "Robotics Brief — 2026-09-23"
 date: 2026-09-23
-tags: [funding, products, silicon, china, conferences]
+tags: [funding, products, foundation-models, silicon, china, conferences]
 ---
 
 # Robotics Market Sensing — 2026-09-23
@@ -10,7 +10,7 @@ tags: [funding, products, silicon, china, conferences]
 ## TL;DR
 - **Qualcomm acquires PickNik Robotics (MoveIt)** ⚠️ — owning the dominant open-source manipulation framework bundles software gravity into Dragonwing; Intel has no equivalent ecosystem moat.
 - **Unitree leads Chinese state procurement** — Sep 23 data confirms ~33% of 168 government embodied-AI robot projects (RMB 550M total), anchoring revenue regardless of IPO turbulence.
-- **Helicon exits stealth with $16M** — LA startup targeting carbon-fiber composites automation (6-month → 2-week lead times).
+- **Google Intrinsic Core goes Apache 2.0** — FoundationPose, real-time control, ROS 2 drivers open-sourced at ROSCon; a direct challenge to NVIDIA Isaac ROS's grip on the production-robotics software stack.
 
 ---
 
@@ -30,6 +30,8 @@ tags: [funding, products, silicon, china, conferences]
 ---
 
 ## 3. Foundation models & software
+
+- **Google Intrinsic Core open-sourced (Sep 22)** — Intrinsic (Google's robotics unit) released its core manufacturing infrastructure under Apache 2.0 at ROSCon Toronto. Components: real-time robot control, FoundationPose 6-DoF pose estimation, motion and grasp planning, ROS 2 drivers. Same stack Intrinsic uses in live factory deployments. Intrinsic CEO Wendy Tan White presenting today (Sep 23) with AI for Industry Challenge winners. Direct alternative to proprietary Isaac ROS building blocks. [Intrinsic Blog](https://www.intrinsic.ai/blog/posts/introducing-intrinsic-core) | [SiliconAngle](https://siliconangle.com/2026/09/22/googles-robotics-unit-intrinsic-open-sources-its-foundational-infrastructure-for-intelligent-robots/)
 
 - **Viam BoxBot VLA** — logistics VLA crossing from lab to product: cut tape → open flaps → done, trained on human demos. First public demo at IROS Sep 27. [RoboticsTomorrow](https://www.roboticstomorrow.com/news/2026/09/23/viam-debuts-box-opening-robot-at-iros-2026/27142/) *(date via URL path)*
 
@@ -75,7 +77,7 @@ tags: [funding, products, silicon, china, conferences]
 
 ## 8. Conferences & signals
 
-- **ROSCon 2026 Toronto — Day 2 (Sep 23)**: Accelerated Memory Transports / ROS 2 Lyrical session; NVIDIA running Isaac Lab + Isaac Sim workshops. Closes Sep 24. [NVIDIA](https://www.nvidia.com/en-us/events/roscon/)
+- **ROSCon 2026 Toronto — Day 2 (Sep 23)**: Accelerated Memory Transports / ROS 2 Lyrical session (10 AM EDT); NVIDIA running Isaac Lab + Isaac Sim workshops; Intrinsic CEO presenting with AI for Industry Challenge winners (dexterous cable routing/assembly for server manufacturing). Closes Sep 24. [NVIDIA](https://www.nvidia.com/en-us/events/roscon/) | [Intrinsic](https://www.intrinsic.ai/events/roscon-2026)
 
 - **IROS 2026 Pittsburgh (Sep 27–Oct 1)**: Viam BoxBot pre-announced; 1,900+ papers, 170+ exhibitors, plenary panels on Startups and Specialist/Generalist AI debate. Highest-density academic→product signal event of the fall. [IROS 2026](https://2026.ieee-iros.org/)
 
@@ -91,4 +93,6 @@ tags: [funding, products, silicon, china, conferences]
 
 3. **China's state-procurement flywheel is structural.** Unitree's 33% government order share partially socializes R&D via state contracts — an asymmetry Western humanoid startups can't replicate. Watch AgiBot's pending IPO as the global benchmark valuation signal.
 
-4. **IROS 2026 (Sep 27) is the next watch window.** 1,900+ papers; VLA/manipulation heavy program. Papers landing here define what gets productized through 2027 — flag Isaac Lab and Dragonwing-native papers as ecosystem momentum proxies.
+4. **Google Intrinsic Core + Qualcomm/MoveIt = open-source squeeze on proprietary stacks.** Two major open-source moves in 24h — Google's manufacturing infrastructure (Apache 2.0) and Qualcomm absorbing MoveIt — compress the value proposition of closed/proprietary robotics middleware. NVIDIA and Intel both need to accelerate open-source community contributions to stay relevant to developers choosing their default stack.
+
+5. **IROS 2026 (Sep 27) is the next watch window.** 1,900+ papers; VLA/manipulation heavy program. Papers landing here define what gets productized through 2027 — flag Isaac Lab and Dragonwing-native papers as ecosystem momentum proxies.
